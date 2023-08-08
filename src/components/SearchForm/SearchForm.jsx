@@ -9,7 +9,7 @@ const SearchForm = ({ onSubmit }) => {
     event.preventDefault();
     if (query) {
       onSubmit(query);
-      setQuery('');
+      // setQuery('');
     }
   };
 
